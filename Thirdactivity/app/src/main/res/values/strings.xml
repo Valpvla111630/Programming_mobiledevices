@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thirdactivity</string>
+    <string name="app_name2">FourthActivity</string>
+    <string name="LadoUno">Lado Uno</string>
+    <string name="LadoUno.">El lado uno es:</string>
+    <string name="LadoDos">Lado Dos</string>
+    <string name="LadoDos.">El lado dos es:</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Resultado">El resultado es:</string>
+    <string name="AbrirGoogle">AbrirGoogle</string>
+    <string name="Llamada">Llamar</string>
+</resources>

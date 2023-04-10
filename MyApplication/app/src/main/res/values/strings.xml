@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="app_name2">MyAplicattion2</string>
+    <string name="datouno">Primer dato: </string>
+    <string name="dato1">El dato uno insertado es: </string>
+    <string name="datodos">Segundo dato: </string>
+    <string name="dato2">El dato insertado es: </string>
+    <string name="datotres">Dato Tres: </string>
+    <string name="dato3">El dato Tres es: </string>
+    <string name="Boton">Boton </string>
+    <string name="abrirGoogle">Google </string>
+    <string name="llamada">Llamar </string>
+    <string name="wifi">Wifi </string>
+    <string name="camara">Camara </string>
+    <string name="contactos">Contactos </string>
+</resources>

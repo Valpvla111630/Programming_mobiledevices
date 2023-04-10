@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firstactivity</string>
+    <string name="Title">Calculator</string>
+    <string name="NumberOne">n1</string>
+    <string name="Multiplicator">mul</string>
+    <string name="CalculateMultiplication">Calculate</string>
+</resources>
