@@ -2,7 +2,6 @@
 <LinearLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -38,7 +37,6 @@
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:gravity="center">
-
         </EditText>
 
     </LinearLayout>
@@ -63,7 +61,6 @@
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:gravity="center">
-
         </EditText>
 
     </LinearLayout>
@@ -88,9 +85,7 @@
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:gravity="center">
-
         </EditText>
-
     </LinearLayout>
 
     <LinearLayout
@@ -105,7 +100,6 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="@string/Boton">
-
         </Button>
 
     </LinearLayout>

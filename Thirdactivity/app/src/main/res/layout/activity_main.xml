@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:textAlignment="center"
-        android:text="@string/app_name2"
+        android:text="@string/app_name"
         android:textColor="@color/teal_200">
     </TextView>
 
@@ -29,7 +29,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/LadoUno."></TextView>
+            android:text="@string/LadoUno"></TextView>
 
         <EditText
             android:id="@+id/LadoUno"
@@ -53,7 +53,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/LadoDos."></TextView>
+            android:text="@string/LadoDos">
+        </TextView>
 
         <EditText
             android:id="@+id/LadoDos"
@@ -68,6 +69,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/Calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Calcular"
+            >
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_marginTop="5dp"
         android:orientation="horizontal">
@@ -77,7 +95,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/Resultado"></TextView>
+            android:text="@string/Resultado">
+        </TextView>
 
         <EditText
             android:id="@+id/Resultado"
@@ -90,4 +109,32 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/openGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AbrirGoogle">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/llamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Llamada">
+
+        </Button>
+
+    </LinearLayout>
 </LinearLayout>
