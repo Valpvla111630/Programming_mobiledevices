@@ -20,7 +20,7 @@ public class DbHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 
-        sqLiteDatabase.execSQL("CREATE 1TABLE "+ TABLE_CONTACTOS + "(" +
+        sqLiteDatabase.execSQL("CREATE TABLE "+ TABLE_CONTACTOS + "(" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "nombre TEXT NOT NULL," +
                 "telefono TEXT NOT NULL," +
