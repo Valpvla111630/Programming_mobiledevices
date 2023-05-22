@@ -12,8 +12,17 @@
         android:theme="@style/Theme.MyApplicationAgenda"
         tools:targetApi="31">
         <activity
-            android:name=".NuevoActivity"
+            android:name=".VerActivity"
             android:exported="false" />
+        <activity
+            android:name=".NuevoActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:exported="false"
+            android:value=".MainActivity" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

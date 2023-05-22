@@ -28,21 +28,26 @@ public class NuevoActivity extends AppCompatActivity {
         btnGuardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DbContactos dbContactos = new DbContactos(NuevoActivity.this);
-                long id = dbContactos.InsertarContacto(txtNombre.getText().toString(),
-                txtTelefono.getText().toString(), txtEmail.getText().toString());
 
-                if(id > 0){
-                    Toast.makeText(NuevoActivity.this, "REGISTRO GUARDADO", Toast.LENGTH_LONG).show();
-                    Limpiar();
-                }else{
-                    Toast.makeText(NuevoActivity.this, "ERROR AL GUARDAR REGISTRO", Toast.LENGTH_LONG).show();
+                if(!txtNombre.getText().toString().equals("") && !txtTelefono.getText().toString().equals("")) {
+
+                    DbContactos dbContactos = new DbContactos(NuevoActivity.this);
+                    long id = dbContactos.InsertarContacto(txtNombre.getText().toString(), txtTelefono.getText().toString(), txtEmail.getText().toString());
+
+                    if (id > 0) {
+                        Toast.makeText(NuevoActivity.this, "REGISTRO GUARDADO", Toast.LENGTH_LONG).show();
+                        Limpiar();
+                    } else {
+                        Toast.makeText(NuevoActivity.this, "ERROR AL GUARDAR REGISTRO", Toast.LENGTH_LONG).show();
+                    }
+                } else {
+                    Toast.makeText(NuevoActivity.this, "DEBE LLENAR LOS CAMPOS OBLIGATORIOS", Toast.LENGTH_LONG).show();
                 }
             }
         });
     }
 
-    private void Limpiar(){
+    private void Limpiar() {
         txtNombre.setText("");
         txtTelefono.setText("");
         txtEmail.setText("");
